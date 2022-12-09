@@ -3,7 +3,7 @@ module.exports = config => {
   config.addPassthroughCopy('./src/style.css');
   config.addPassthroughCopy('./src/images/**/*.*')
 
-  ['Books'].forEach((tag) => {
+  ['article', 'Books'].forEach((tag) => {
     config.addCollection(tag, async function (collectionsAPI) {
       const all = collectionsAPI.getAll();
       const articles = all.filter(x => x.data.Collection && x.data.Collection.indexOf(tag) > -1)
