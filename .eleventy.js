@@ -1,7 +1,7 @@
 module.exports = config => {
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/style.css');
-  config.addPassthroughCopy('./src/images/')
+  config.addPassthroughCopy('./src/images/**/*.*')
 
   ['Books'].forEach((tag) => {
     config.addCollection(tag, async function (collectionsAPI) {
