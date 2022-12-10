@@ -9,6 +9,9 @@ prose:
         field:
           element: "hidden"
           value: "Books"
+      - name: "date"
+        field: "hidden"
+        value: {{ date }}
       - name: "Title"
         field:
           label: "Title"
