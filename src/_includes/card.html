@@ -1,10 +1,7 @@
 <article style="border: 1px solid rgba(255,255,255,0.15); border-radius: 1ch; background-color: rgba(255,255,255,0.0625); overflow: hidden; box-shadow: 1ch 1ch 1px rgba(0,0,0,0.3);">
-  {% if post.data.Cover | length %}
-  <img src="{{ post.data.Cover }}" alt="" style="aspect-ratio: 4/6; width: 100%; object-fit: cover;" />
-  {% endif %}
   <div style="padding: 2em;">
-    <h3>{{ post.data.Title | safe }}</h3>
-    <p><cite>{{ post.data.Author }}</cite></p>
-    <a href="{{ post.url }}">Read review</a>
+    <h3>{{ post.templateContent | safe }}</h3>
+    <p><time>{{ post.dat }}</tim></p>
+    <a href="{{ post.url }}">permalink</a>
   </div>
 </article>
