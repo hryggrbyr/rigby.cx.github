@@ -3,7 +3,6 @@ Collection: Books
 layout: book
 published: false
 ---
-## A New Post
 This is where the sun sets.
 
 We watch the sea aflame as she swallows the sun.
