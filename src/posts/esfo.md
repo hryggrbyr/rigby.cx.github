@@ -18,10 +18,3 @@ I picked an account at random and logged in. First time. I could see this random
 Then I shat myself realising I had done some actually super-illegal hacking. I wrote down everything I had found out and emailed it to the Guardian.
 
 And then I woke up.
-
-
-
-
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
