@@ -2,21 +2,6 @@
 
 {% block content %}
   <article>
-    <header>
-      {% if Cover %}
-        <img src="{{ Cover }}" alt="" role="presentation" style="float: right;" />
-      {% endif %}
-      <h1>{{ Title }}</h1>
-      <cite>Written by {{ Author }}</cite>
-    </header>
-    <div class="with-sidebar">
-      <aside>
-        <ul class="categories">{% for tag in Tags %}<li>{{ tag }}</li>{% endfor %}</ul>
-      </aside>
-      <div class="content">{{ content | safe }}</div>
-    </div>
-    <footer>
-      Reviewed by Thomas Rigby, {{ date }}
-    </footer>
+    {{ content | safe }}
   </article>
 {% endblock %}
