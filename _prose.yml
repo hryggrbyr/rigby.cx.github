@@ -11,5 +11,11 @@ prose:
           value: "Books"
       - name: "Title"
         field:
+          label: "Title"
+          element: "text"
+          value: ""
+      - name: "Author"
+        field:
+          label: "Author"
           element: "text"
           value: ""
