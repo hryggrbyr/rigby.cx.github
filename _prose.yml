@@ -1,6 +1,4 @@
-prose:
-  rooturl: 'src/posts'
-  siteurl: 'http://rigby.cx/'
+
   metadata:
     posts:
       - name: "Collection"
