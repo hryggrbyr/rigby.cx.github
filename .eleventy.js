@@ -3,6 +3,12 @@ module.exports = config => {
   config.addPassthroughCopy('./src/style.css');
   config.addPassthroughCopy('./src/images/**/*.*');
 
+
+  config.addFilter('formatDate', (d) => {
+    const x = new Date(d)
+    return x.toLocaleString()
+  });
+
   ['Books'].forEach((tag) => {
     config.addCollection(tag, async function (collectionsAPI) {
       const all = collectionsAPI.getAll();
