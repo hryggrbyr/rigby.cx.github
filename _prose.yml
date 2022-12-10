@@ -1,16 +1,15 @@
-metadata:
-  posts:
-    - name: "Collection"
-      field:
-        element: "hidden"
-        value: "Books"
-    - name: "layout"
-      field:
-        element: "hidden"
-        value: "book"
-    - name: "title"
-      field:
-        element: "text"
-        label: "Title"
-        value: ""
-
+prose:
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "book"
+      - name: "Collection"
+        field:
+          element: "hidden"
+          value: "Books"
+      - name: "Title"
+        field:
+          element: "text"
+          value: ""
