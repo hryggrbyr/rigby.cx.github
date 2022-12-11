@@ -1,6 +1,6 @@
 ---
 label: Book
-hide_body: true
+hide_body: false
 fields:
 - name: layout
   type: text
