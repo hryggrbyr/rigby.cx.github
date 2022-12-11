@@ -1,7 +1,7 @@
 ---
 Collection: Books
 layout: book
-published: false
+date: 2017-02-02
 ---
 On the day the new king was born they scouted the country for a baby boy born at the same time.
 
