@@ -10,5 +10,5 @@ prose:
           element: "hidden"
           value: "Books"
       - name: "date"
-        field: "hidden"
+        field: "text"
         value: CURRENT_DATETIME
