@@ -27,3 +27,5 @@ fields:
     display_utc: false
     export_format: YYYY-MM-DD
   default: now
+pages:
+- src/posts/test.md
