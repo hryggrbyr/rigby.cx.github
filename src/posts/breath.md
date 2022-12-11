@@ -1,7 +1,7 @@
 ---
 Collection: Books
 layout: book
-date: 2022-12-11T18:00:00.000+00:00
+date: 2022-11-22
 published: true
 
 ---
