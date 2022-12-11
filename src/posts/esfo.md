@@ -2,6 +2,7 @@
 Collection: Books
 layout: book
 published: true
+name: null
 ---
 One of the few certified COVID-NEGATIVE shops open on the high street is a small grocery store called ESFO.
 
