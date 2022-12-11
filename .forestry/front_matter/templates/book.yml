@@ -1,6 +1,7 @@
 ---
 label: Book
 hide_body: true
+display_field: Collection
 fields:
 - name: layout
   type: text
