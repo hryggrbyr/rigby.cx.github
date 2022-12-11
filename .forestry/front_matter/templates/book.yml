@@ -1,4 +1,18 @@
 ---
 label: Book
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: Layout
+  default: book
+- name: Collection
+  type: text
+  config:
+    required: false
+  label: Collection
+  hidden: true
+  default: Books
