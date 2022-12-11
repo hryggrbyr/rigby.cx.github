@@ -31,6 +31,7 @@ fields:
   type: boolean
   label: Published
 pages:
+- src/posts/esfo.md
 - src/posts/fair-isle.md
 - src/posts/meanwhile-paris.md
 - src/posts/the-jester.md
