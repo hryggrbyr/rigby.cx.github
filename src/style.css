@@ -62,13 +62,13 @@ img {
 }
 
 .card-grid {
-  display: flex;
-  justify-content: center;
+
 }
 .card {
-  flex-basis: 24rem;
-  flex-shrink: 1;
-  flex-grow: 0;
+  width: 100%;
+  max-width: 24rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 .card+.card {
   margin-top: 5rem;
