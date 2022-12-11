@@ -5,7 +5,7 @@ date: 2021-04-27
 published: true
 
 ---
-Today I had to send an "\`ID\`" in the body of my POST request. It turns out that the API doesn't care what the value is - it just needs to be alphanumeric (a-z, A-Z, 0-9), exactly 18 characters long, and not already in the system.
+![](/images/95e12c25267b4054.jpg)Today I had to send an "\`ID\`" in the body of my POST request. It turns out that the API doesn't care what the value is - it just needs to be alphanumeric (a-z, A-Z, 0-9), exactly 18 characters long, and not already in the system.
 
 So I decided to generate a random string<sup>*</sup>!
 
