@@ -16,3 +16,14 @@ fields:
   label: Collection
   hidden: true
   default: Books
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
