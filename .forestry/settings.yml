@@ -9,8 +9,6 @@ sections:
   label: Posts
   create: documents
   match: "**/*"
-  templates:
-  - book
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
