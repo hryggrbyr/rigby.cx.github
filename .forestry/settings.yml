@@ -9,6 +9,7 @@ sections:
   label: Posts
   create: documents
   match: "**/*"
+  exclude: index.html
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
