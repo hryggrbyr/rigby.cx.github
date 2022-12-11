@@ -6,7 +6,8 @@ module.exports = config => {
 
   config.addFilter('formatDate', (d) => {
     const x = new Date(d)
-    return x.toLocaleString()
+    const options = { dateStyle: 'full' }
+    return x.toLocaleString('en-GB', options)
   });
 
   ['Books'].forEach((tag) => {
