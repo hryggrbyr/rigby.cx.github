@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  hidden: false
+  hidden: true
   label: Layout
   default: book
 - name: Collection
@@ -14,7 +14,7 @@ fields:
   config:
     required: false
   label: Collection
-  hidden: false
+  hidden: true
   default: Books
 - name: date
   type: datetime
@@ -27,3 +27,6 @@ fields:
     display_utc: false
     export_format: YYYY-MM-DD
   default: now
+- name: published
+  type: boolean
+  label: Published
