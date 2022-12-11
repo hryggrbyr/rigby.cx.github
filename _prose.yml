@@ -11,14 +11,4 @@ prose:
           value: "Books"
       - name: "date"
         field: "hidden"
-        value: {{ date }}
-      - name: "Title"
-        field:
-          label: "Title"
-          element: "text"
-          value: ""
-      - name: "Author"
-        field:
-          label: "Author"
-          element: "text"
-          value: ""
+        value: CURRENT_DATETIME
