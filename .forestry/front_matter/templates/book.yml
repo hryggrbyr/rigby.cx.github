@@ -1,6 +1,6 @@
 ---
 label: Book
-hide_body: false
+hide_body: true
 fields:
 - name: layout
   type: text
@@ -30,14 +30,5 @@ fields:
 - name: published
   type: boolean
   label: Published
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Content
 pages:
 - src/posts/the-jester.md
