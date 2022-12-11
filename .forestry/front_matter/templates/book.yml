@@ -30,3 +30,5 @@ fields:
 - name: published
   type: boolean
   label: Published
+pages:
+- src/posts/the-jester.md
