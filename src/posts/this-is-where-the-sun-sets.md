@@ -1,7 +1,8 @@
 ---
 Collection: Books
 layout: book
-published: tru
+published: true
+date: '2022-12-09 11:42 +0000'
 ---
 This is where the sun sets.
 
