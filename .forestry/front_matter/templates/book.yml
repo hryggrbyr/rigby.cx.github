@@ -32,3 +32,4 @@ fields:
   label: Published
 pages:
 - src/posts/the-jester.md
+- src/posts/this-is-where-the-sun-sets.md

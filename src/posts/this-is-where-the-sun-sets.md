@@ -2,7 +2,7 @@
 Collection: Books
 layout: book
 published: true
-date: 2021-08-30T23:00:00Z
+date: 2021-08-30T23:00:00.000+00:00
 
 ---
 This is where the sun sets.
