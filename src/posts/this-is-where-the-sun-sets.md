@@ -1,7 +1,8 @@
 ---
 Collection: Books
 layout: book
-published: tru
+published: true
+date: 2021-08-31
 ---
 This is where the sun sets.
 
