@@ -2,7 +2,7 @@
 Collection: Books
 layout: book
 published: true
-name: thomas
+date: 2022-01-20
 ---
 One of the few certified COVID-NEGATIVE shops open on the high street is a small grocery store called ESFO.
 
@@ -17,5 +17,3 @@ I thought it couldn't possibly be!
 
 I picked an account at random and logged in. First time. I could see this random person's transactions.
 Then I shat myself realising I had done some actually super-illegal hacking. I wrote down everything I had found out and emailed it to the Guardian.
-
-And then I woke up.
