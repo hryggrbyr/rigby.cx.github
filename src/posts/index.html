@@ -6,7 +6,9 @@ layout: 'base.html'
 <section>
   <div class="card-grid">
     {% for post in collections.Books | reverse %}
-      {% include 'card.html' %}
+      {% if post.data.published %}
+        {% include 'card.html' %}
+      {% endif %}
     {% endfor %}
   </div>
 </section>
