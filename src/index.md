@@ -6,7 +6,7 @@ layout: 'base.html'
 
 This is a dummy blog for testing a workflow.
 
-- SpinalCMS
+- forestry.io
 - GitHub
 - 11ty
 - Netlify
