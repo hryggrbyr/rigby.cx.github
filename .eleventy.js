@@ -4,6 +4,8 @@ module.exports = config => {
   config.addPassthroughCopy('./src/images/**/*.*');
 
 
+  config.addShortcode('year', () => `${new Date().getFullYear()}`);
+
   config.addFilter('formatDate', (d) => {
     const x = new Date(d)
     const options = { dateStyle: 'full' }
