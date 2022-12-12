@@ -54,7 +54,7 @@ img {
 
 .wrapper {
   width: 100%;
-  max-width: 1280px;
+  max-width: calc(10vw + 67ch);
   margin-right: auto;
   margin-left: auto;
   padding-right: 5vw;
@@ -78,3 +78,4 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+p+p { margin-top: 2em; }
